@@ -23,7 +23,7 @@ export default function Home() {
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
       <li className="nav-item active">
-        <a className="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+        <a className="nav-link" href="#">About Us <span className="sr-only"></span></a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#">Services</a>
@@ -98,20 +98,15 @@ export default function Home() {
 
             
 <h2 className="my-5 h3 text-center">Founded on Finding the Time</h2>
-<p>48 knows you're busy so we're here to help you plan that dream weekend vacay or staycay ;)</p>
 
 
 
 <hr/>
 
-<p>
-Whether its bar hopping, tequila tasting, dumpling finding or mountain biking, 48Vacay will box together a unique itinerary for you based on your interests and send you on your way! We'll even help keep you on track by reminding you when its time to head out to make that brewery reservation so you can truly kick back and enjoy this adventure. 
-</p>
 
 
-<a target="_blank" href="#Portfolio" className="btn btn-grey btn-md">Let's Adventure!
-  <i className="fas fa-plane ml-2"></i>
-</a>
+
+<a target="_blank" href="#Portfolio" className="btn btn-grey btn-md"><i className="fas fa-plane ml-2"></i></a>
 
 
 </div>
