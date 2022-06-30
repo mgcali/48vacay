@@ -123,7 +123,7 @@ Whether its bar hopping, tequila tasting, dumpling finding or mountain biking, 4
 </p>
 
 
-<a target="_blank" href="#Portfolio" class="btn btn-grey btn-md">Let's Adventure!
+<a target="_blank" href="#Portfolio" className="btn btn-grey btn-md">Let's Adventure!
   <i className="fas fa-plane ml-2"></i>
 </a>
 
@@ -155,7 +155,7 @@ Whether its bar hopping, tequila tasting, dumpling finding or mountain biking, 4
       </main>
 
       <footer className={styles.footer}>
-      <div class="footer-copyright py-3">
+      <div className="footer-copyright py-3">
      <p> © 2022 Copyright
       <a href="#" target="_blank"> 48Vacay </a></p>
     </div>
