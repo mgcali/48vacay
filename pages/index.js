@@ -51,7 +51,7 @@ export default function Home() {
 </nav>
 
       <main className={styles.main}>
-      <div className='hero'>
+      <div>
       <div id="carousel-example-1z" className="carousel slide carousel-fade">
 
     
