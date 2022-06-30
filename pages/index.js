@@ -160,18 +160,8 @@ Whether its bar hopping, tequila tasting, dumpling finding or mountain biking, 4
       <a href="#" target="_blank"> 48Vacay </a></p>
     </div>
       </footer>
-      <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
- 
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  
-  <script type="text/javascript" src="js/mdb.min.js"></script>
- 
-  <script type="text/javascript">
-    // Animations initialization
-    new WOW().init();
-  </script>
-    </div>
+
+</div>   
+    
   )
 }
