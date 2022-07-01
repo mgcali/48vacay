@@ -1,43 +1,19 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Logo from '../media/logo.jpg';
 import Hero from '../media/hero.jpg';
 import Filler from '../media/filler.jpg';
 import Document from '../pages/document.js';
+import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
 
 
 export default function Home() {
   return (
     <div className={styles.container}>
               
-        <Document></Document>
-  
-     
-
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <a className="navbar-brand" href="#"><Image src={Logo} alt="logo of 48vacay" width={108} height={100}/></a>
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-  </button>
-  <div className="collapse navbar-collapse" id="navbarNav">
-    <ul className="navbar-nav">
-      <li className="nav-item active">
-        <a className="nav-link" href="#">About Us <span className="sr-only">(current)</span></a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">Services</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">Testimonials</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">Contact Us</a>
-      </li>
-     
-    </ul>
-  </div>
-</nav>
+      <Document/>
+      <NavBar/>
 
       <main className={styles.main}>
       <div>
@@ -127,13 +103,7 @@ export default function Home() {
         
       </main>
 
-      <footer className={styles.footer}>
-      <div className="footer-copyright py-3">
-     <p> © 2022 Copyright
-      <a href="#" target="_blank"> 48Vacay </a></p>
-    </div>
-      </footer>
-
+     <Footer/>
 </div>   
     
   )
