@@ -40,18 +40,18 @@ export default function NavBar() {
            
             <ul className="navbar-nav nav-flex-icons">
               <li className="nav-item p-2">
-                <a href="https://www.facebook.com/48Vacay/" class="nav-link" target="_blank">
+                <a href="https://www.facebook.com/48Vacay/" className="nav-link" target="_blank" rel="noreferrer">
                   <i className="fab fa-facebook"></i>
                 </a>
               </li>
               <li className="nav-item p-2">
-                <a href="https://www.instagram.com/48Vacay/" class="nav-link" target="_blank">
+                <a href="https://www.instagram.com/48Vacay/" className="nav-link" target="_blank" rel="noreferrer">
                   <i className="fab fa-instagram"></i>
                 </a>
               </li>
               <li className="nav-item p-2">
-                <a href="https://www.youtube.com/channel/UCWDPBfmZ7B9hncCz1tjw8Ig" class="nav-link"
-                  target="_blank">
+                <a href="https://www.youtube.com/channel/UCWDPBfmZ7B9hncCz1tjw8Ig" className="nav-link"
+                  target="_blank" rel="noreferrer">
                   <i className="fab fa-youtube mr-2"></i>
                 </a>
               </li>
