@@ -16,6 +16,7 @@ export default function Document() {
   <link href="css/bootstrap.min.css" rel="stylesheet"/>
  
   <link href="css/mdb.min.css" rel="stylesheet"/>
+  
         </Head>
 
     )

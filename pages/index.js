@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Logo from '../media/logo.jpg';
+
 import Hero from '../media/hero.jpg';
 import Filler from '../media/filler.jpg';
 import Document from '../pages/document.js';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+
 
 
 export default function Home() {
@@ -14,8 +15,9 @@ export default function Home() {
               
       <Document/>
       <NavBar/>
-
+      <br/> <br/><br/> 
       <main className={styles.main}>
+        
       <div>
       <div id="carousel-example-1z" className="carousel slide carousel-fade">
 
