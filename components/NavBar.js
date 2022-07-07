@@ -31,7 +31,7 @@ export default function NavBar() {
                 <Link className="nav-link" href="/services">Services</Link>
               </li>
               <li className="nav-item p-3">
-                <Link className="nav-link" href="/testimonials">Featured Itineries</Link>
+                <Link className="nav-link" href="/testimonials">Featured Itineraries</Link>
               </li>
               <li className="nav-item p-3">
                 <Link className="nav-link" href="/contact">Contact Us</Link>
